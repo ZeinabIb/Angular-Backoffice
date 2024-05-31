@@ -1,1 +1,9 @@
-<p>filter works!</p>
+<div class="filter-container" style="margin-top: 10px;">
+    <label for="filterSelect">Filter by:</label>
+    <select id="filterSelect" class="form-select" [(ngModel)]="selectedFilter">
+      <option value="location">Location</option>
+      <option value="category">Category</option>
+      <option value="subcategory">Subcategory</option>
+    </select>
+  </div>
+  

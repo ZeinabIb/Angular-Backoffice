@@ -1,0 +1,17 @@
+.search-container {
+margin-left: 50%;
+width: 100%;
+
+  }
+  
+  .search-input {
+   border-color: gray;
+   border-width: 1px;
+   padding: 9px;
+   border-radius:5px;
+   width: 100%;
+  
+  }
+  
+
+  

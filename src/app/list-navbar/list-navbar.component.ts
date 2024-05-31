@@ -5,7 +5,7 @@ import { FilterComponent } from '../filter/filter.component';
 @Component({
   selector: 'app-list-navbar',
   standalone: true,
-  imports: [SearchbarComponent, FilterComponent],
+  imports: [SearchbarComponent],
   templateUrl: './list-navbar.component.html',
   styleUrl: './list-navbar.component.css'
 })

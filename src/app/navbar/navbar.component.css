@@ -1,0 +1,25 @@
+.custom-navbar {
+    line-height: 3vh;
+
+  }
+  
+  .custom-navbar .container-fluid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .custom-logout-btn {
+    background-color: rgb(192, 81, 81);
+    border:none;
+    width: 100px;
+    height: 30px;
+    margin-right: 30px;
+    border-radius: 5px;
+    color: white;
+  }
+
+  .custom-logout-btn:hover {
+    background-color: rgb(188, 54, 54);
+  }
+  
